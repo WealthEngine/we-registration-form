@@ -1,0 +1,13 @@
+html
+  head
+    title!= title
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
+  body
+    .container
+      .jumbotron
+        p="WE API Response: "+fullname+" in "+city+", "+state
+        h1="Net Worth "+networth
+          .small=" Gift Capacity "+gift_capacity
+      .row
+        .col-xs-8.col-xs-offset-2
+          pre=we_response

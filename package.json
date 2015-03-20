@@ -1,0 +1,23 @@
+{
+  "name": "we-registration-form",
+  "version": "1.0.0",
+  "description": "A Simple Node/Express App - Know the Wealth of People that Sign Up Online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name" : "Ben Hofer",
+    "email" : "bhofer@wealthengine.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.2",
+    "jade": "^1.9.2",
+    "request": "^2.53.0"
+  },
+  "engines": {
+      "node": "~0.12.0"
+  }
+}

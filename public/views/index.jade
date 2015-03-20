@@ -1,0 +1,41 @@
+html
+  head
+    title!= title
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
+  body
+    .container
+      .page-header
+        h1='Registration Example '
+          small='Know the Wealth of People that Sign Up Online'
+      .row
+        .col-xs-8.col-xs-offset-2
+          .row
+            form.form-horizontal(method="post" action="/register")
+              h2.text-center='Your Registration Form'
+              .form-group
+                label.col-sm-3.control-label(for="first_name")='First Name'
+                .col-sm-7
+                  input.form-control.first_name(type="text" id="first_name" name="first_name" placeholder="First Name")
+              .form-group
+                label.col-sm-3.control-label(for="last_name")='Last Name'
+                .col-sm-7
+                  input.form-control.first_name(type="text" id="last_name" name="last_name" placeholder="Last Name")
+              .form-group
+                label.col-sm-3.control-label(for="address")='Address'
+                .col-sm-7
+                  input.form-control.address(type="text" id="address" name="address_line1" placeholder="Address")
+              .form-group
+                label.col-sm-3.control-label(for="city")='City'
+                .col-sm-5
+                  input.form-control.city(type="text" id="city" name="city" placeholder="City")
+              .form-group
+                label.col-sm-3.control-label(for="state")='State'
+                .col-sm-5
+                  input.form-control.state(type="text" id="state" name="state" placeholder="State")
+              .form-group
+                label.col-sm-3.control-label(for="zip")='Zip'
+                .col-sm-2
+                  input.form-control.zip(type="text" id="zip" name="zip" placeholder="Zip")
+              .form-group
+                .col-sm-2.col-sm-offset-8
+                  button#register-btn.btn.btn-primary(type="submit" style="width:100%")='Register'
