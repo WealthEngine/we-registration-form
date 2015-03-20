@@ -15,17 +15,17 @@ This app grabs a person's name and address from a form POST and sends it to the 
   nodemon index.js
 
 ## Folder Structure
-.
-├── README.markdown
-├── index.js
-├── node_modules
-│   ├── body-parser
-│   ├── express
-│   ├── jade
-│   └── request
-├── package.json
-└── public
-    └── views
-        ├── error.jade
-        ├── index.jade
-        └── profile.jade
+  .
+  ├── README.markdown
+  ├── index.js
+  ├── node_modules
+  │   ├── body-parser
+  │   ├── express
+  │   ├── jade
+  │   └── request
+  ├── package.json
+  └── public
+      └── views
+          ├── error.jade
+          ├── index.jade
+          └── profile.jade
