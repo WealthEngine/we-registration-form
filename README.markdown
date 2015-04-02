@@ -6,13 +6,13 @@ This app grabs a person's name and address from a form POST and sends it to the 
 
 ## Quick Start
 
-  npm install
-  node start
+    npm install
+    npm start
 
 ## WE recommend Nodemon
 
-  npm install -g nodemon
-  nodemon index.js
+    npm install -g nodemon
+    nodemon index.js
 
 ## Folder Structure
     .
