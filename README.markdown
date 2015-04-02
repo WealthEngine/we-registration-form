@@ -17,16 +17,15 @@ This app grabs a person's name and address from a form POST and sends it to the 
 ## Folder Structure
     .
     ├── README.markdown
-    ├── index.js
-    ├── node_modules
+    ├── index.js         #main service
+    ├── node_modules     #add modules: npm i {module} --save
     │   ├── body-parser
     │   ├── express
     │   ├── jade
     │   └── request
     ├── package.json
-    └── public
+    └── public          #all client-side code
       └── views
           ├── error.jade
           ├── index.jade
           └── profile.jade
-          
