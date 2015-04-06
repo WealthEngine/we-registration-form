@@ -113,6 +113,6 @@ app.get('/error', function (req, res) {
 // Setting up the server
 var server = app.listen(3000, function () {
 
-  console.log('Server Ready: http://localhost:'+ server.address().port)
+  console.log('Server Ready: http://localhost:' + server.address().port)
 
 })
